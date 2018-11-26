@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/ic_envelope"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email address"
+            android:layout_marginLeft="48dp"
+            android:textColor="#0d47a1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginBottom="32dp"
+            android:textColorHint="#0d47a1"
+
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autocomplete email addresses"
+            android:layout_marginBottom="64dp"
+            android:layout_marginLeft="48dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="#fafafa"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:background="#0d47a1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="32dp"
+        android:background="#bad1d0c3"
+        android:padding="32dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or sign in with"
+            android:paddingBottom="16dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GOOGLE"
+                android:drawableLeft="@drawable/ic_google_plus"
+                android:drawablePadding="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:textColor="#0d47a1"
+                android:background="@drawable/sign_in_outer_line"
+                android:layout_marginRight="16dp"
+                android:textSize="16sp"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:drawableLeft="@drawable/ic_facebook"
+                android:drawablePadding="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:textColor="#0d47a1"
+                android:background="@drawable/sign_in_outer_line"
+                android:textSize="16sp"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

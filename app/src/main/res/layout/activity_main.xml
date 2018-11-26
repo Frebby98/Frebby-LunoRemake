@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#303f9f"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+android:paddingTop="64dp"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="luno"
+        android:textSize="130sp"
+        android:textColor="#fafafa"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bitcoin and Ethereum made easy"
+        android:textColor="#fafafa"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    android:paddingBottom="64dp"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true"
+    android:gravity="center">
+<Button
+    android:id="@+id/signIn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SIGN IN"
+    android:textColor="#fafafa"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:background="@drawable/outline"/>
+<Button
+    android:id="@+id/signUp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SIGN UP"
+   android:layout_marginLeft="12dp"
+    android:textColor="#303f9f"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:background="#fafafa"
+
+    tools:ignore="ButtonStyle" />
+</LinearLayout>
+</RelativeLayout>
